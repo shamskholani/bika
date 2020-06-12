@@ -134,6 +134,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.8s;
 
 }
 
@@ -145,4 +146,11 @@
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 1px;
+    
 }
+
+.services .container .serviceBx:hover{
+    background-color: #1E90FF;
+    color: white;
+}
+
